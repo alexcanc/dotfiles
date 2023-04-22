@@ -61,4 +61,9 @@
   defaultBranch = master
 [user]
 	email = tiloucanac1300@gmail.com
-	name = Canacaris alexandre
+	name = Alexandre Canacaris
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
