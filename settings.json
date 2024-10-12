@@ -56,17 +56,17 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
-    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
     "python.formatting.provider": "yapf",
     "python.languageServer": "Pylance",
     "python.linting.enabled": false,
     "python.linting.flake8Enabled": false,
     "python.linting.pylintEnabled": false,
     "python.terminal.activateEnvironment": false,
+    "python.defaultInterpreterPath": ".venv/bin/python",
     "ruby.lint": {
         "rubocop": true
     },
@@ -84,5 +84,16 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Spinel",
+    "editor.inlineSuggest.enabled": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": true,
+      "markdown": false,
+      "scminput": false
+    },
+    "window.zoomLevel": -1,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.renderWhitespace": "all",
 }

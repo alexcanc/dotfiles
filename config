@@ -1,3 +1,13 @@
+Host "data engineering bootcamp"
+  HostName 34.155.47.49
+  IdentityFile ~/.ssh/id_ed25519
+  User tiloucanac1300
+
+Host "data engineering bootcamp"
+  HostName 34.155.47.49
+  IdentityFile ~/.ssh/id_ed25519
+  User tiloucanac1300
+
 Host *
   UseKeychain yes
   AddKeysToAgent yes
